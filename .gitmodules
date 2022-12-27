@@ -1,0 +1,3 @@
+[submodule "robotsearch"]
+	path = robotsearch
+	url = https://github.com/tarensanders/robotsearch.git
