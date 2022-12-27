@@ -28,7 +28,7 @@ It also makes your methods transparent to your readers, and not least we'd love 
 1. To use as a Python package you will need an install of conda. [Miniconda](https://docs.conda.io/en/latest/miniconda.html) is a good choice.
 2. Pull the repo onto your machine, using whatever method you like for this.
 3. `cd` your way into the cloned repo.
-4. Run `conda env create -f tmp/rs_env.yml` to create the environment with the required packages.
+4. Run `conda env create -f rs_env.yml` to create the environment with the required packages.
 5. Activate the conda environment `conda activate robotsearch`.
 6. Run `python setup.py install`.
 7. You should now be able to run `robotsearch path_to_ris` to convert files, or import as a module.
