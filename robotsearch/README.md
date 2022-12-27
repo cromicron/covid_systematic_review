@@ -1,7 +1,7 @@
 # RobotSearch
 
 > **Note**
-> This is a lightly edited fork of the [original repo](https://github.com/ijmarshall/robotsearch).
+> All files in this folder were downloaded from the [repository](https://github.com/tarensanders/robotsearch) , which itself is a fork of [the original repo](https://github.com/ijmarshall/robotsearch) . Some code has been slightly changed.
 
 Welcome to RobotSearch, software for filtering RCTs from a search result as described in [our paper](https://doi.org/10.1002/jrsm.1287) in the Journal of Research Synthesis Methods.
 
