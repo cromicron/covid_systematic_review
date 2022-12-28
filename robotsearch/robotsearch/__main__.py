@@ -86,7 +86,7 @@ def main():
     rct_bot = rct_robot.RCTRobot()
 
     log.info('Loading the RIS input file')
-    with open(args.input_filename, 'r') as f:
+    with open(args.input_filename, 'r', encoding="utf8") as f:
         input_text = f.read()
 
     log.info('Finding RCTs...')
