@@ -93,7 +93,7 @@ def main():
     output = rct_bot.filter_articles(input_text, filter_class, threshold)
 
     log.info('Writing the output to {}'.format(output_filename))
-    with open(output_filename, 'w') as f:
+    with open(output_filename, 'w', encoding="utf8") as f:
         f.write(output)
 
     log.info('Finished :) Good bye!')
