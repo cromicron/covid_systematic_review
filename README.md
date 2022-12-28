@@ -33,10 +33,13 @@ The project is organized as follows:
 ## Running the Code
 
 To run the code in this repository, follow these steps:
-
 1. Clone or download the repository to your local machine.
-2. Install the required software and libraries as listed in the "Requirements and Dependencies" section above.
-3. Open the Jupyter notebooks in the `notebooks/` directory and run the code cells to reproduce the results of the protocol development, systematic review, and meta analysis.
+2. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+3. Open the Anaconda Prompt and cd into the project folder of this project
+4. From anaconda run `conda env create -f env.yml` to create the environment with the required packages
+5. To use virtual environments within jupyter notebooks run the following command `conda install -c anaconda ipykernel`
+6. Install the kernel with the above created environment by running `python -m ipykernel install --user --name=covid_review`
+7. Open the Jupyter notebooks in the `notebooks/` directory and run the code cells to reproduce the results of the protocol
 
 ## License
 
