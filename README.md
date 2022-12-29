@@ -1,16 +1,10 @@
 # Systematic Review and Meta Analysis of Remdesivir for COVID-19 Treatment
 
-This repository contains the code, data, and documentation for a systematic review and meta analysis of the effectiveness of the drug Remdesivir in treating COVID-19. The goal of this project is to provide a clear and reproducible protocol for conducting a systematic review and meta analysis, as well as to produce a meta analysis of the findings of the included studies.
+This repository contains the code, data, and documentation for a systematic review and meta analysis of the effectiveness of the drug Remdesivir in treating COVID-19. The goal of this project is to provide a clear and reproducible protocol for conducting a systematic review and meta analysis, as well as to produce a meta analysis of the findings of the included studies. This repository especially is intended to assist a reasearcher who wants to replicate the systematic review and meta-analysis.
 
 ## Project Components
 
-This project consists of three main components:
 
-1. Protocol development: A detailed protocol for conducting a systematic review and meta analysis is provided, including the selection criteria for included studies and the methods for data extraction and analysis.
-
-2. Systematic review: The protocol is followed to conduct a systematic review of the effectiveness of Remdesivir in treating COVID-19. The review includes a description of the search strategy, the inclusion and exclusion criteria, and the characteristics of the included studies.
-
-3. Meta analysis: A meta analysis of the findings of the included studies is conducted using appropriate statistical methods. The results of the meta analysis are presented in a clear and concise manner, including a summary of the main findings and any limitations of the analysis.
 
 ## Requirements and Dependencies
 
