@@ -14,21 +14,18 @@ This project consists of three main components:
 
 ## Requirements and Dependencies
 
-This project requires the following software and libraries:
+Installation of all requirements and dependencies is documented below under "running the code"
 
-- [R](https://www.r-project.org/) (version 3.6 or higher)
-- [RStudio](https://rstudio.com/) (optional, but recommended)
-- [metafor](https://cran.r-project.org/package=metafor) package for R
-- [rmarkdown](https://rmarkdown.rstudio.com/) package for R
 
 ## Project Structure
 
 The project is organized as follows:
 
-- `data/`: Directory containing the data files for the systematic review and meta analysis.
-- `notebooks/`: Directory containing the Jupyter notebooks for the protocol development, systematic review, and meta analysis.
-- `output/`: Directory containing the output files (e.g. PDFs, HTML files) generated from the Jupyter notebooks.
+- `Conduct_Review.ipynb`: A Jupyter Notebook to run the analyses.
+- `Protocol.md`: The Protocol to conduct the systematic review.
 - `README.md`: This file, containing an overview of the project and instructions for running the code.
+- `robotsearch/`: Directory containing an adabted version of the external [repository](https://github.com/tarensanders/robotsearch) robotsearch to autmate selection of randomized controlled trials.
+
 
 ## Running the Code
 
@@ -39,7 +36,7 @@ To run the code in this repository, follow these steps:
 4. From anaconda run `conda env create -f env.yml` to create the environment with the required packages
 5. To use virtual environments within jupyter notebooks run the following command `conda install -c anaconda ipykernel`
 6. Install the kernel with the above created environment by running `python -m ipykernel install --user --name=covid_review`
-7. Open the Jupyter notebooks in the `notebooks/` directory and run the code cells to reproduce the results of the protocol
+7. Open the Jupyter Notebook `Conduct_Review.ipynb`. Choose the kernel covid_review created above and follow the instructions carefully.
 
 ## License
 
