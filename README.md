@@ -14,7 +14,6 @@ The project is organized as follows:
 
 - `Conduct_Review.ipynb`: A Jupyter Notebook to run the analyses.
 - `env.yml`: A file to configure the virutal environment necessary with Anaconda.
-- `Protocol.md`: The Protocol to conduct the systematic review.
 - `README.md`: This file, containing an overview of the project and instructions for running the code.
 - `robotsearch/`: Directory containing an adabted version of the external [repository](https://github.com/tarensanders/robotsearch) robotsearch to autmate selection of randomized controlled trials.
 
