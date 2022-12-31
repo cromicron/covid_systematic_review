@@ -28,7 +28,7 @@ To run the code in this repository, follow these steps:
 5. Activate the environment by running `conda activate covid_review`
 6. Install jupyter lab by running pip install jupyter lab
 7. To use virtual environments within jupyter notebooks run the following command `conda install -c anaconda ipykernel`
-8. Install the kernel with the above created environment by running `python -m ipykernel install --user --name=covid_review`
+8. Install the kernel with the above created environment by running `python -m ipykernel install --user --name=covid_review` . Make sure to always activate the virtual envoironment before running jupyter.
 9. Open the Jupyter Notebook by running `jupyter lab Conduct_Review.ipynb`. 
 10. Chose the kernel covid_review created above by klicking on the kernel on the top right corner of your jupyter notebook and follow the instructions carefully.
 
