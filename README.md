@@ -6,8 +6,8 @@ This repository contains the code, data, and documentation for a systematic revi
 Remdesivir is a drug that was first developed for the treatment of Ebola. It has been experimentally tested for use in Covid-19 patients, 
 especially with those that suffered from pneumonia. It is a drug administered with an intravenous injection. <br>
 A systematic review is a type of literature review which minimizes the individual researcher's bias on the results. It does so by
- following a well-specified pre-defined protocol on which studies to include for the analysis in which to exclude. 
-The criteria are defined in advance of the literature search. Independent researchers should arrive at similar conclusions, when they apply the given 
+ following a well-specified pre-defined protocol on which studies to include for the analysis and which to exclude. 
+The criteria are defined in advance of the literature search. Independent researchers should arrive at similar conclusions when they apply the given 
 protocol. The purpose of this repository is to allow independent researchers to replicate the steps that the original author took in his analysis.
 The population of studies this review is to be applied to, are publications found on PubMed-central - an open-access platform
  for biomedical publications. Among those, only studies which use a randomized-controlled-trial study-design are to be included in 
@@ -16,7 +16,7 @@ included. The measures of interest are mortality-ratio and/or time to recovery o
  with patients infected with Covid-19 are to be included in the analysis. <br>
 Many steps in this analysis are automated. The tool Robotsearch is a machine-learning tool which tests PubMed-search results for randomized-
 controlled trials. Further automation included the scanning of open access articles for proper outcome-measures. After the automated
-steps are finished, the person replicating the review has to manually scan the remaining articles for eligibility. The jupyter-notebook 
+steps are finished, the person replicating the review has to manually scan the remaining articles for eligibility. The Jupyter-notebook 
 Conduct_Review.ipynb guides the person replicating through the steps necessary to evaluate the eligibility of studies based on the criteria mentioned
 before. After having selected the proper studies, the replicator should extract the effect-measures, confidence-intervals, p-values,
 sample-sizes from the studies and code if the study included a placebo-control group or a standard-care control-group. <br> 
@@ -43,7 +43,7 @@ The project is organized as follows:
 ## Running the Code
 
 To run the code in this repository, follow these steps:
-1. Clone or download the repository to your local machine.
+1. Clone or download the repository to your local machine. If you download, make sure to unzip the folder and extract to the directory of your choice.
 2. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 3. Open the Anaconda Prompt and move into the project folder of this project by [using the cd command](https://www.lifewire.com/change-directories-in-command-prompt-5185508).
 4. From anaconda run `conda env create -f env.yml` to create the environment with the required packages
