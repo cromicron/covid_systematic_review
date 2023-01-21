@@ -38,7 +38,7 @@ The project is organized as follows:
 - `env.yml`: A file to configure the virutal environment necessary with Anaconda.
 - `README.md`: This file, containing an overview of the project and instructions for running the code.
 - `robotsearch/`: Directory containing an adapted version of the external [repository](https://github.com/tarensanders/robotsearch) robotsearch to automate selection of randomized controlled trials.
-
+- `protected.zip`: The purpose of this directory will be explained later in this project
 
 ## Running the Code
 
