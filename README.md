@@ -48,12 +48,12 @@ To run the code in this repository, follow these steps:
 3. Open the Anaconda Prompt and move into the project folder of this project by [using the cd command](https://www.lifewire.com/change-directories-in-command-prompt-5185508).
 4. From anaconda run `conda env create -f env.yml` to create the environment with the required packages
 5. Activate the environment by running `conda activate covid_review`
-6. Install jupyter lab by running `pip install jupyter lab`
+6. Install jupyter lab by running `pip install jupyterlab`
 7. To use virtual environments within jupyter notebook run the following command `conda install -c anaconda ipykernel`
 8. Install the kernel with the above created environment by running `python -m ipykernel install --user --name=covid_review` . Make sure to always activate the virtual environment before running jupyter.
 9. Now install robotsearch. Move to the robotsearch-directory by typing `cd robotsearch`
 10. Install robotsearch by executing `python setup.py install`
-11. Go back to the project-root directory by executing `cd ../` and open the Jupyter Notebook by running `python -m jupyter lab Conduct_Review.ipynb`. 
+11. Go back to the project-root directory by executing `cd ../` and open the Jupyter Notebook by running `python -m jupyterlab Conduct_Review.ipynb`. 
 12. Check the top right-hand corner for the kernel-name covid-review. If it shows another kernel - e.g. python3, click on the name and choose covid_review.
 
 ## License
